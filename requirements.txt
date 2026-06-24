@@ -1,1 +1,7 @@
-
+tensorflow
+torch
+open-clip-torch
+scikit-learn
+Pillow
+matplotlib
+numpy
