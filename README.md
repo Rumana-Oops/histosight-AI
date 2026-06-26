@@ -17,7 +17,7 @@ This project classifies 256×256 histopathology image tiles into two categories:
 
 ## Models
 
-### 1. Base CNN (EfficientNetB0 Transfer Learning)
+### 1. Base CNN
 - Input: 128×128 RGB histopathology tiles
 - Architecture: Conv2D → BatchNorm → MaxPooling (×3) → GlobalAveragePooling → Dense → Sigmoid
 - Optimizer: Nadam (lr=1e-5)
